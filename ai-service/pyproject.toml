@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+# Self-contained config so the parent Django project's pytest settings
+# (DJANGO_SETTINGS_MODULE) don't leak into this service.
+python_files = ["test_*.py"]
+addopts = "-q"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
