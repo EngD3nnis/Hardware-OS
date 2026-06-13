@@ -4,7 +4,7 @@ The operating system for a multi-branch hardware business. Django modular
 monolith (DRF + PostgreSQL + Redis + Celery) built around a primary objective:
 the **Executive Command Center**.
 
-> **Status — Phases 1–4.** Implemented & tested (20 passing tests): core kernel,
+> **Status — Phases 1–5.** Implemented & tested (38 passing tests: 20 Django + 18 AI): core kernel,
 > RBAC, audit trail, authentication (JWT + MFA-ready), Organization/Branch,
 > Inventory core (products, suppliers, categories, per-branch stock, immutable
 > stock ledger), **POS** (sales decrement stock through the ledger, returns/refunds
